@@ -78,6 +78,9 @@ section,ul,li {
     width: 20%;
     margin-left:16px;
     padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
   .card {
