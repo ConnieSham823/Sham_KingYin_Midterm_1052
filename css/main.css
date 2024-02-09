@@ -17,11 +17,60 @@ ul,li {
     color: rgb(88, 83, 81);
 }
 
-nav ul li a:hover {
-    color: hsl(44, 85%, 71%);
+a:link {
+    color: hwb(40 38% 60%);
+}
+
+a:hover {
+    color: hwb(192 15% 16%);
 }
 
 h1 {
     text-align: center;
     color: #4c4b4b;
 }
+
+h3 {
+    text-align: center;
+    color: #4c4b4b;
+}
+
+section,ul,li {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 #b5888833;
+    padding: 10px 16px;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
