@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(249, 248, 246);
+}
+
+header,ul,li {
+    display: inline;
+}
+
+ul,li {
+    width: 80px;
+    border-color: rgb(255, 255, 255);
+    border-style:hidden ;
+    border-width: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(88, 83, 81);
+}
+
+a:link {
+    color: hwb(40 38% 60%);
+}
+
+a:hover {
+    color: hwb(192 15% 16%);
+}
+
+h1 {
+    text-align: center;
+    color: #4c4b4b;
+    font-size:xx-large;
+}
+
+h3 {
+    text-align: center;
+    color: #4c4b4b;
+}
+
+section,ul,li {
+    text-align: center;
+}
+
+  
